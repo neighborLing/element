@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "common/var";
+@import "common/punkVar";
 @import "mixins/button";
 @import "mixins/mixins";
 @import "mixins/utils";
@@ -135,6 +136,10 @@
   }
   @include m(info) {
     @include button-variant($--button-info-font-color, $--button-info-background-color, $--button-info-border-color);
+  }
+  @include m(punk) {
+    @include punk-style;
+    @include button-variant($--button-punk-font-color, $--button-punk-background-color, $--button-punk-border-color);
   }
   @include m(medium) {
     @include button-size($--button-medium-padding-vertical, $--button-medium-padding-horizontal, $--button-medium-font-size, $--button-medium-border-radius);

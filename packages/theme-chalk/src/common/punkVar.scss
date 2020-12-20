@@ -1,0 +1,19 @@
+/* Color
+-------------------------- */
+$--button-punk-font-color: #ff5d55;
+$--button-punk-background-color: #000000;
+$--button-punk-border-color: #ff5d55;
+
+/* Border
+-------------------------- */
+$--punk-border-width: 3px;
+/* Shadow
+-------------------------- */
+$--punk-text-shadow: 0 0 4px #ef0808;
+$--punk-box-shadow: 0 0 4px #ef0808;
+
+@mixin punk-style {
+  text-shadow: $--punk-text-shadow;
+  box-shadow: $--punk-box-shadow;
+  border-width: $--punk-border-width;
+}
