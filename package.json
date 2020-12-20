@@ -65,8 +65,12 @@
     "deepmerge": "^1.2.0",
     "normalize-wheel": "^1.0.1",
     "resize-observer-polyfill": "^1.5.0",
+<<<<<<< HEAD
     "throttle-debounce": "^1.0.1",
     "tree-node-cli": "^1.4.0"
+=======
+    "throttle-debounce": "^1.0.1"
+>>>>>>> a2683e975e705b2c1adf1e5d3b52d2fa679c13ee
   },
   "peerDependencies": {
     "vue": "^2.5.17"

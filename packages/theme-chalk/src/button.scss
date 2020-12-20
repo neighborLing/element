@@ -137,10 +137,13 @@
   @include m(info) {
     @include button-variant($--button-info-font-color, $--button-info-background-color, $--button-info-border-color);
   }
+<<<<<<< HEAD
   @include m(punk) {
     @include punk-style;
     @include button-variant($--button-punk-font-color, $--button-punk-background-color, $--button-punk-border-color);
   }
+=======
+>>>>>>> a2683e975e705b2c1adf1e5d3b52d2fa679c13ee
   @include m(medium) {
     @include button-size($--button-medium-padding-vertical, $--button-medium-padding-horizontal, $--button-medium-font-size, $--button-medium-border-radius);
     @include when(circle) {
